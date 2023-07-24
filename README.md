@@ -24,7 +24,7 @@ This will set the environment variables for the current terminal session. If you
 
 **Note:** Remember to replace your_infura_api_key, 0xMixerAccount1, 0xMixerAccount2, etc., with your own values. And be sure to keep these private keys secure and not share them with anyone.
 
-<h2>Functionality</h2>.
+<h2>Functionality</h2>
 The script performs the following operations:
 
 **Smart contract compilation and deployment:** The script compiles an Ethereum smart contract written in Solidity that manages deposits and withdrawals. Once the contract is compiled, it deploys it to the Ethereum network using one of the accounts defined in the environment variables.
@@ -33,11 +33,11 @@ The script performs the following operations:
 
 **Withdrawal of funds:** Finally, the script withdraws all funds to a final account specified in the script.
 
-<h2>Warning</h2>.
+<h2>Warning</h2>
 This mixer does not guarantee complete anonymity. Blockchain analysts may use a variety of techniques to try to trace the origin of funds, even if they have passed through a mixer.
 
-<h2>Security</h2>.
+<h2>Security</h2>
 This script handles passwords and private keys carefully, storing them in environment variables, a recommended practice to protect this sensitive information. However, it is strongly recommended to never publish private keys visibly or in public repositories.
 
-<h2>Transaction Costs</h2>.
+<h2>Transaction Costs</h2>
 Since this script interacts with the Ethereum network, each transaction incurs a gas cost that must be covered. Make sure you have enough ETH in your accounts to cover these costs.
